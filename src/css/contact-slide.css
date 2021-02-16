@@ -1,0 +1,273 @@
+.courses-box {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(31, 31, 31);
+  height: 500px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.courses-box ul {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+}
+
+.courses-box ul p {
+  font-family: URW Chancery L, cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.courses-box ul li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.courses-box .course {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  height: 370px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.courses-box .course div {
+  font-weight: normal;
+  font-size: 16px;
+  color: gray;
+  margin-top: 30px;
+}
+
+.courses-box .course div:nth-child(1) {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  margin-top: 20px;
+}
+
+.courses-box .course .prices-box div:nth-child(1) {
+  margin-top: 0px;
+}
+
+.courses-box .course .prices-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  align-self: center;
+  border-top: 1px;
+  border-top-color: gray;
+  border-top-style: solid;
+  margin-top: 80px;
+}
+
+.courses-box .course .prices-box div:nth-child(2) {
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.courses-box .course .scroll-button {
+  background-color: rgb(235, 199, 0);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.courses-box .course .scroll-button:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+
+.courses-box .course:nth-child(3) {
+  overflow: hidden;
+  background-color: white;
+  height: 400px;
+  width: 350px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.courses-box .course:nth-child(3) .prices-box {
+  margin-top: 40px;
+}
+
+.courses-box .course:nth-child(3) span {
+  position: absolute;
+  color: white;
+  right: 0px;
+  z-index: 1;
+  transform: rotate(45deg);
+  font-size: 15px;
+  top: 30px;
+}
+
+.courses-box .course:nth-child(3)::before,
+.courses-box .course:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.courses-box .course:nth-child(3)::after {
+  border-width: 50px;
+  border-right-color: gold;
+  border-top-color: gold;
+}
+
+.form-box {
+  background-color: rgb(31, 31, 31);
+  display: grid;
+  grid-template-rows: 7fr 7fr 7fr 7fr 7fr 1fr 7fr;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.form-box .form {
+  align-self: center;
+  justify-self: center;
+  width: 60%;
+  height: 50px;
+}
+
+.form-box h1:first-child {
+  align-self: center;
+  justify-self: center;
+  color: white;
+}
+
+.form-box p {
+  color: red;
+}
+
+.form-box .text-field {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.form-box .text-field input {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.form-box label span {
+  color: white;
+}
+
+.form-box .text-field label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-box .text-field label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid gold;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.form-box .content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form-box .text-field input:focus + .label-name .content-name,
+.form-box .text-field input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: gold;
+}
+
+.form-box .text-field input:focus + .label-name::after,
+.form-box .text-field input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.form-box .submit-form {
+  background-color: rgb(235, 199, 0);
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-self: center;
+  align-self: center;
+  outline: none;
+}
+
+.form-box .submit-form:hover {
+  background-color: gold;
+}
+
+@media only screen and (max-width: 768px) {
+  .courses-box {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    justify-content: flex-start;
+  }
+
+  .courses-box ul {
+    width: 80%;
+    list-style-type: circle;
+  }
+
+  .courses-box ul p {
+    font-size: 25px;
+  }
+
+  .courses-box ul li {
+    font-size: 15px;
+  }
+
+  .courses-box .course {
+    margin-bottom: 50px;
+  }
+
+  .form-box {
+    width: 90%;
+  }
+}
