@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/KazFinance/static/css/main.fd4c6ab9.chunk.css",
-    "main.js": "/KazFinance/static/js/main.6ddf44af.chunk.js",
-    "main.js.map": "/KazFinance/static/js/main.6ddf44af.chunk.js.map",
+    "main.css": "/KazFinance/static/css/main.61de064c.chunk.css",
+    "main.js": "/KazFinance/static/js/main.e50dd6f8.chunk.js",
+    "main.js.map": "/KazFinance/static/js/main.e50dd6f8.chunk.js.map",
     "runtime-main.js": "/KazFinance/static/js/runtime-main.58a3eb0d.js",
     "runtime-main.js.map": "/KazFinance/static/js/runtime-main.58a3eb0d.js.map",
     "static/css/2.ec02d681.chunk.css": "/KazFinance/static/css/2.ec02d681.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.b2c21ef3.chunk.js.map": "/KazFinance/static/js/3.b2c21ef3.chunk.js.map",
     "index.html": "/KazFinance/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/KazFinance/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.fd4c6ab9.chunk.css.map": "/KazFinance/static/css/main.fd4c6ab9.chunk.css.map",
+    "static/css/main.61de064c.chunk.css.map": "/KazFinance/static/css/main.61de064c.chunk.css.map",
     "static/js/2.ec0f2d74.chunk.js.LICENSE.txt": "/KazFinance/static/js/2.ec0f2d74.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.58a3eb0d.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.ec0f2d74.chunk.js",
-    "static/css/main.fd4c6ab9.chunk.css",
-    "static/js/main.6ddf44af.chunk.js"
+    "static/css/main.61de064c.chunk.css",
+    "static/js/main.e50dd6f8.chunk.js"
   ]
 }
