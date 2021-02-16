@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KazFinance/static/css/main.61de064c.chunk.css",
-    "main.js": "/KazFinance/static/js/main.e50dd6f8.chunk.js",
-    "main.js.map": "/KazFinance/static/js/main.e50dd6f8.chunk.js.map",
+    "main.js": "/KazFinance/static/js/main.b934e3bb.chunk.js",
+    "main.js.map": "/KazFinance/static/js/main.b934e3bb.chunk.js.map",
     "runtime-main.js": "/KazFinance/static/js/runtime-main.58a3eb0d.js",
     "runtime-main.js.map": "/KazFinance/static/js/runtime-main.58a3eb0d.js.map",
     "static/css/2.ec02d681.chunk.css": "/KazFinance/static/css/2.ec02d681.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.ec0f2d74.chunk.js",
     "static/css/main.61de064c.chunk.css",
-    "static/js/main.e50dd6f8.chunk.js"
+    "static/js/main.b934e3bb.chunk.js"
   ]
 }
